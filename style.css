@@ -1,0 +1,57 @@
+.border-none {
+  border: none !important;
+}
+
+.has-background-lbg {
+  background-color: #fbfcfc;
+}
+
+.icon.is-xs {
+  font-size: 0.5rem;
+}
+
+.icon.is-md {
+  font-size: .8rem;
+}
+
+.has-background-main {
+  height: 100vh;
+  background-color: #00f;
+}
+
+.is-darkblue {
+  background-color: #11466a;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card .icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #f3f8fd;
+  color: #ff6643;
+  border-radius: 50%;
+}
+
+.right {
+  position: relative;
+  overflow: hidden;
+}
+
+.discount {
+  position: absolute;
+  top: -6px;
+  right: -19px;
+  background-color: #ff9b67;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  font-size: 13px;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  border-top-right-radius: 4px;
+}
+/*# sourceMappingURL=style.css.map */

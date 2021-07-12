@@ -1,0 +1,67 @@
+$r_yellow: #bfbe07;
+$btn_yellow:#ffc145;
+$dty_seacrh:#acb7bb;
+$k_red:#ff6643;
+$k_white:#f3f8fd;
+$t_blue:#0096cc;
+$btn_blue:#308ec1;
+$discount:#ff9b67;
+$bd5:5px;
+$lbg:#fbfcfc;
+$darkblue:#11466a;
+$main:#f4f9fb;
+.border-none {
+    border: none !important;
+}
+
+.has-background-lbg {
+    background-color: $lbg;
+}
+
+.icon.is-xs {
+    font-size: 0.5rem;
+}
+
+.icon.is-md {
+    font-size: .8rem;
+}
+
+.has-background-main {
+    height: 100vh;
+    background-color: #00f;
+}
+
+.is-darkblue {
+    background-color: $darkblue;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card .icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: $k_white;
+    color: $k_red;
+    border-radius: 50%;
+}
+
+.right {
+    position: relative;
+    overflow: hidden;
+}
+
+.discount {
+    position: absolute;
+    top: -6px;
+    right: -19px;
+    background-color: $discount;
+    transform: rotate(45deg);
+    font-size: 13px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-top-right-radius: 4px;
+}

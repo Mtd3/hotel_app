@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tour App!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container is-widescreen">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-end">
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item"><span class="icon is-medium"
+                  ><i class="fas fa-lg fa-globe-europe"></i></span
+                ><span>YURTDIŞI TURLARI</span>
+              </a>
+                        <a class="navbar-item"><span class="icon is-medium"
+                  ><i class="fas fa-lg fa-landmark"></i
+                ></span>
+                <span>KÜLTÜR TURLARI</span>
+              </a>
+                        <a class="navbar-item"><span class="icon is-medium"
+                  ><i class="fas fa-lg fa-ship"></i
+                ></span>
+                <span>GEMİ TURLARI</span>
+              </a>
+                        <a class="navbar-item"><span class="icon is-medium"
+                  ><i class="fas fa-lg fa-book"></i></span
+                ><span> VİZE İŞLEMLERİ</span>
+              </a>
+                    </div>
+                </div>
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-light"> Kayıt ol </a>
+                        <a class="button is-light"> Giriş yap </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="container py-5">
+            <div class="container is-flex has-background-lbg">
+                <input class="input border-none has-background-lbg" type="text" placeholder="Yurt içi, Yurt Dışı" />
+                <button class="button border-none is-warning has-text-white">
+            <span class="icon">
+              <i class="fas fa-lg fa-search"></i>
+            </span>
+          </button>
+                <button class="button is-rounded is-small">
+            <span>Detaylı arama</span
+            ><span class="icon is-small"
+              ><i class="fas fa-chevron-down"></i
+            ></span>
+          </button>
+            </div>
+        </section>
+        <section class="container py-5 is-flex is-align-items-center">
+            <span class="icon"><i class="fas fa-lg fa-home"></i></span>
+            <span class="icon is-xs"><i class="fas fa-chevron-right"></i></span>
+            <span href="#">Avrupa'yı Keşfet</span>
+            <span class="icon is-xs"><i class="fas fa-chevron-right"></i></span>
+            <button class="button is-white">
+          <span> <strong class="is-size-4">Roma Turları</strong></span>
+          <span class="icon is-md"><i class="fas fa-chevron-down"></i></span>
+        </button>
+        </section>
+    </div>
+    <div class="container is-fullhd has-background-main">
+        <div class="container is-widescreen">
+            <div class="columns">
+                <aside class="column is-one-quarter">Filtre</aside>
+                <main class="column">
+                    <div class="card columns">
+                        <div class="card-image column is-one-third">
+                            <figure class="image is-3by2">
+                                <img src="https://images.unsplash.com/photo-1606836131166-5cb137786a8d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Placeholder image" />
+                            </figure>
+                            <div class="icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+
+                        <div class="middle column is-two-fifths">
+                            <p>İstanbul Kalkışlı</p>
+                            <h4><strong>Europa Highlights Tour</strong></h4>
+                            <div class="rating mt-1 mb-2">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                                ><i class="fas fa-star"></i>
+                                <span>2 yorum</span>
+                            </div>
+                            <div class="station my-1 is-flex">
+                                <span><strong>Durak: </strong></span>
+                                <span> Italy,Australia,Sweden</span>
+                            </div>
+                            <div class="categories my-1 is-flex">
+                                <span><strong>Kategori: </strong></span>
+                                <span> Private, Fully Guided, Easy, Adventure</span>
+                            </div>
+                        </div>
+                        <div class="right column">
+
+                            <div class="top is-flex pb-2">
+                                <div class="mb-2">
+                                    <b>9</b> GECE <br />
+                                    <strong>Vizesiz</strong>
+                                </div>
+                                <div class="mx-2">
+                                    <del> <b>3.526 TL</b> </del> yerine <br />
+                                    <span>3.128 TL</span>
+                                </div>
+                            </div>
+                            <div class="free-cancel my-3">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Ucretsiz iptal</span>
+                            </div>
+                            <button class="button is-darkblue has-text-white px-6">Turu incele</button>
+                            <div class="discount has-text-white pt-2">-%15</div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
